@@ -1,0 +1,70 @@
+p {
+    color: red
+}
+
+/* PSEUDO CODE */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* class */
+.class {
+    color: green;
+}
+
+/* id */
+#id {
+    background-color: red;
+}
+
+/* element */
+p {
+    color: blue;
+}
+
+/* multiple elements */
+h1,
+h2 {
+    color: blue;
+}
+
+/* elements inside elements */
+div p {
+    font-weight: bold;
+}
+
+/* child elements */
+div>p {
+    font-style: italic;
+}
+
+/* pseudo-classes */
+a:link {
+    color: #FF0000;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+
+a:active {
+    color: #0000FF;
+}
+
+a:visited {
+    color: #00FF00;
+}
+
+/* REUSE */
+h1,
+p {
+    color: blue;
+}
+
+.border {
+    border: thin solid blue;
+}
+
+.red {
+    color: red;
+}

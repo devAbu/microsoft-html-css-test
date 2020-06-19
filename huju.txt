@@ -1,0 +1,47 @@
+Wrap this poem around HTML tags that will preserve all spaces and linebreaks when the element is displayed.
+<pre>
+---
+Emphasize text/word
+<em>
+---
+Add a line through (strikeout) the letters "blue" in the text below.
+<del>
+---
+quotation marks 
+<q>
+---
+The text below should be a quoted section.
+Add the proper HTML element to it, and specify that it is quoted from the following URL:
+<blockquote cite="URL">dasd</blockquote>
+---
+Make the text below go right-to-left.
+<bdo dir="rtl"> dasd</bdo>
+---
+Use an HTML element to provide the specified abbreviation
+<abbr title="NESTO">dsad</abbr>
+---
+Use the correct HTML attribute to make the first TH element span two columns.
+<td colspan="2">
+---
+Use the correct HTML attribute to make the second TH element span two rows.
+rowspan="2"
+---
+Use CSS to display squares instead of bullets.
+style="list-style-type:square"
+---
+Use the correct HTML attribute to display letters (uppercase ABC) instead of numbers.
+type="A" --> type="1|a|A|i|I"
+---
+Use the correct HTML elements to make a description of each term in the description list.
+<dd> --> <dl>
+            <dt>Coffee</dt>
+            - black hot drink
+            <dt>Milk</dt>
+            - white cold drink
+        </dl> 
+---
+Create an iframe with a URL address that goes to https://www.w3schools.com.
+<iframe src="URL">
+---
+Define the character "x" in the equation as a variable.
+<var>

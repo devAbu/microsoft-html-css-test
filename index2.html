@@ -5,9 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS FUNDAMENTALS</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+        p {
+            color: yellow;
+        }
+    </style>
+
+    <!-- EXTERNAL CSS -->
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 
 <body>
+
+    <!-- INLINE CSS -->
+    <p style="color: blue;">This text is blue.</p>
+
+    <!-- Precedence (the cascade) is based on:[6]
+
+    Importance --- !important, but its use is not recommended
+    Specificity --- inline, ID, Class, Element tag
+    Source Order --- 
+        If completing rules have the same importance and specificity, rules defined later      override earlier rules. When multiple external CSS style sheets are linked, or internal and external style sheets are used, the order in which the links and internal styles are defined determines precedence.
+    -->
+
+    <!--     A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). -->
+    <!-- Examples: U CSS (style2.css) -->
+
+    <!-- REUSE -->
+    <h1>Blue Heading</h1>
+
+    <p class="border">Blue paragraph with border</p>
+
+    <p class="red border">Red paragraph with border</p>
+
+    <!-- TEST ON MULTIPLE BROWSERS 
+    Test CSS using the W3C CSS Validator (https://jigsaw.w3.org/css-validator/) service, and test using multiple
+    browsers.
+
+    Visit CanIUse (https://caniuse.com/) to check browser compatibility with different HTML and CSS features. -->
+
+    <!-- WEB SAFE FONTS 
+    font-family
+    font -- 
+    The font CSS property is a shorthand for font-style, font-variant, font-weight, font-stretch, font-size,
+    line-height, and font-family. If used, it must include values for <font-size> and <font-family>
+-->
 
 </body>
 
