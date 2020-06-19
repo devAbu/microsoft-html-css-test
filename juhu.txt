@@ -33,85 +33,85 @@
 --------------------------
 3. Structure Documents Using HTML --> 30/35%
 *** Construct and analyze markup to structure content and organize data 
--- Table tags
--- h1-h6
--- p
--- br
--- hr
--- div
--- span
--- ul
--- ol
--- li
+-- Table tags -- +
+-- h1-h6 -- +
+-- p -- +
+-- br -- +
+-- hr -- +
+-- div -- +
+-- span -- +
+-- ul -- +
+-- ol -- +
+-- li -- +
 *** Construct and analyze markup that uses HTML5 semantic elements 
--- Semantic tags
--- header
--- nav
--- section
--- article
--- aside
--- footer
--- details
--- summary
--- figure
--- caption
+-- Semantic tags -- +
+-- header -- +
+-- nav -- +
+-- section -- +
+-- article -- +
+-- aside -- +
+-- footer -- +
+-- details -- +
+-- summary -- +
+-- figure -- +
+-- caption -- +
 *** Construct and analyze markup that implements navigation 
--- Image links
---a
---target
---bookmark
---relative versus absolute links
+-- Image links -- +
+--a -- +
+--target -- +
+--bookmark -- +
+--relative versus absolute links -- +
 --navigating simple folder hierarchies
 ***  Construct and analyze markup that uses form elements 
--- Form attributes
--- action
--- method
--- submission methods
+-- Form attributes -- +
+-- action -- +
+-- method -- +
+-- submission methods -- +
 -- accessibility
--- input types and restrictions
--- select
--- textarea
--- button
--- output
--- option
--- datalist
--- fieldset
+-- input types and restrictions -- +
+-- select -- +
+-- textarea -- + 
+-- button -- + 
+-- output -- +
+-- option -- +
+-- datalist -- +
+-- fieldset -- +
 ----------------
 4. Present Multimedia Using HTML --> 10/15%
 *** Construct and analyze markup that displays images 
--- img and picture elements and their attributes
-*- Describe the appropriate use of the img, svg, and canvas elements 
+-- img and picture elements and their attributes -- +
+*- Describe the appropriate use of the img, svg, and canvas elements -- +
 *** Construct and analyze markup that plays video and audio 
--- Video
--- audio
--- track
--- source
--- simple iframe implementations
+-- Video -- +
+-- audio -- +
+-- track -- +
+-- source -- +
+-- simple iframe implementations -- +
 ------------------
 5. Style web pages using CSS --> 20/25%
 *** Construct and analyze styles that position content 
--- Positioning, including float, relative, absolute, max-width, overflow, height, width, and align
--- inline versus block
--- visibility
--- box model, including margins and padding
+-- Positioning, including float, relative, absolute, max-width, overflow, height, width, and align -- +
+-- inline versus block -- +
+-- visibility -- +
+-- box model, including margins and padding -- +
 *** Construct and analyze styles that format text 
--- Font-family
--- color
+-- Font-family --+
+-- color -- +
 -- font-style
--- font-size
--- font-weight
--- link colors
--- text formatting, including text alignment, text decoration, and indentation
+-- font-size -- +
+-- font-weight -- +
+-- link colors -- +
+-- text formatting, including text alignment, text decoration, and indentation -- +
 *** Construct and analyze styles that format backgrounds and borders 
--- Border-color
--- border-style
--- border-width
--- backgrounds
+-- Border-color -- +
+-- border-style -- +
+-- border-width -- +
+-- backgrounds -- +
 -- divs
 -- colors
-*** Analyze styles that implement a simple responsive layout 
--- Units of measure
--- responsive effects with CSS, including viewport and media query
--- percentages versus pixels
--- frameworks and templates
--- max width
+*** Analyze styles that implement a simple responsive layout --RADIM
+-- Units of measure -- +
+-- responsive effects with CSS, including viewport and media query -- +
+-- percentages versus pixels -- +
+-- frameworks and templates -- +
+-- max width -- +

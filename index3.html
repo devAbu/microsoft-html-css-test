@@ -8,6 +8,264 @@
 </head>
 
 <body>
+    <!-- TABLE -->
+    <table>
+        <thead>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 1</td>
+            </tr>
+            <tr>
+                <td>Data 1</td>
+                <td>Data 1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Footer 1</td>
+                <td>Footer 2</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- H1-H6 -->
+    <h1>Heading Level 1</h1>
+    <h2>Heading Level 2</h2>
+    <h3>Heading Level 3</h3>
+    <h4>Heading Level 4</h4>
+    <h5>Heading Level 5</h5>
+    <h6>Heading Level 6</h6>
+    <!-- p -->
+    <p>Paragraph.</p>
+    <!-- br -->
+    <p>Line<br>break.</p>
+    <!-- hr -->
+    <hr>
+    <!-- DIV - The HTML <div> element is a generic block-level container for flow content. It has no effect on the content or layout until styled using CSS. -->
+    <div>
+        <p>A floating paragraph.</p>
+    </div>
+    <!-- span - The HTML <span> element is a generic inline container for phrasing content, which does not inherently represent anything, but may be used for styling or other attributes-->
+    <p><span style="font-family: cursive">Cursive text</span> in a paragraph.</p>
+    <!-- UL - Unordered list -->
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+    <!-- OL - Ordered List-->
+    <ol>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ol>
+    <!-- LI - list item -->
+
+    <!-- SEMANTIC TAGS - Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in webpages and web applications rather than merely to define its presentation or look.-->
+
+    <!--     The HTML <header> element represents introductory content-->
+    <!-- The HTML <nav> element represents a section of a page whose purpose is to provide navigation links. -->
+    <!-- The HTML <section> element represents a standalone section, which doesn't have a more specific semantic element to represent it-->
+    <!-- The HTML <article> element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable. -->
+    <!-- The HTML <aside> element represents a portion of a document whose content is only indirectly related to the document's main content.-->
+    <!--The HTML <footer> element represents a footer for its nearest sectioning content or sectioning root element.-->
+    <!--The HTML <details> element is used to create a disclosure widget in which information is visible only when the widget is toggled into an "open" state. -->
+    <!--The HTML <summary> element is used as a summary, caption, or legend for the content of a <details> element. -->
+    <!--The HTML <figure> element represents self-contained content, frequently with a caption. -->
+    <!--The HTML <figcaption> element represents a caption or a legend associated with a figure or an illustration described by the rest of the data of the <figure> element which is its immediate ancestor -->
+
+    <!-- IMG -->
+    <img src="example.jpg" alt="Alternate text that describes the image.">
+    <a href="linked_page.html"><img src="example.jpg" alt="Alternate text that describes the image."></a>
+
+    <!-- A -->
+    <a href="linked_page.html">link text</a>
+    <a href="linked_page.html"><img src="example.jpg" alt="Alternate text that describes the image."></a>
+
+    <!-- TARGET - Specifies where to display the linked URL. It is a name of, or keyword for, a browsing context: a tab, window, or <iframe>. The following keywords have special meanings: -->
+    <!--  _self: Load the URL into the same browsing context as the current one. This is the default behavior. -->
+    <!-- _blank: Load the URL into a new browsing context. This is usually a tab, but users can configure browsers to use new windows instead.-->
+    <!-- _parent: Load the URL into the parent browsing context of the current one. If there is no parent, this behaves the same way as _self.-->
+    <!-- _top: Load the URL into the top-level browsing context (that is, the "highest" browsing context that is an ancestor of the current one, and has no parent). If there is no parent, this behaves the same way as _self. -->
+    <!-- EXAMPLE-->
+    <a href="linked_page.html" target="_blank">Opens in a new tab or new window.</a>
+
+    <!-- BOOKMARKS - An element ID preceded by a hash mark (#) specifies an internal target location within the current document or another document. -->
+    <!-- EXAMPLE -->
+    <a href="#bookmark">bookmark link</a>
+    <a href="linked_page.html#bookmark">bookmark link</a>
+    ...
+    <h2 id="bookmark">Bookmark Target</h2>
+
+    <!-- ABSOLUTE VS RELATIVE LINKS - Relative links are relative to the path of the current page. Absolute links specify a full document location (fully-qualified server name and file path). -->
+    <!-- EXAMPLE -->
+    <a href="relative_link.html">relative link</a>
+    <a href="../path/relative_link.html">relative path link</a>
+    <a href="https://example.com/path/absolute_link.html">absolute link</a>
+
+    <!-- FORM - The HTML <form> element represents a document section that contains interactive controls to submit information to a web server. -->
+    <!-- The following form will open in a new window, allowing you to see the URI that would be submitted to a web server. -->
+    <form action="" method="get" target="_blank">
+        <label for="name">Name:</label>
+        <input name="name" type="text">
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- ACTION - The form action attribute specifies the URI of the page that will process submitted form information.-->
+    <!-- The following form will open in a new window and displays form name-value pairs. -->
+    <form action="http://demo.nickname.net/demo/testpak/basic_forms.pl" method="get" target="_blank">
+        <label for="name">Name:</label> <input name="name" type="text"> <input type="submit" value="Submit">
+    </form>
+
+    <!-- METHOD - The form method attribute specifies the HTTP method that the browser uses to submit the form. Possible values are:
+
+    post: Corresponds to the HTTP POST method ; form data are included in the body of the form and sent to the server.
+    get: Corresponds to the HTTP GET method; form data are appended to the action attribute URI with a '?' as separator. -->
+    <!-- The following forms will open in a new window and display form name-value pairs. -->
+
+    <form action="http://demo.nickname.net/demo/testpak/basic_forms.pl" method="get" target="_blank">
+        <label for="name">Name:</label> <input name="name" type="text"> <input type="submit" value="Get">
+    </form>
+
+    <form action="http://demo.nickname.net/demo/testpak/basic_forms.pl" method="post" target="_blank">
+        <label for="name">Name:</label> <input name="name" type="text"> <input type="submit" value="Post">
+    </form>
+
+    <!-- ACCESSIBILITY -->
+
+    <!-- INPUT TYPE - The HTML <input> element is used to create interactive controls for web-based forms in order to accept data from the user. Input types include:-->
+
+    <!--checkbox: A check box allowing single values to be selected/deselected.-->
+    <!--color: A control for specifying a color.-->
+    <!--date: A control for entering a date (year, month, and day, with no time).-->
+    <!--email: A field for editing an e-mail address.-->
+    <!--file: A control that lets the user select a file.-->
+    <!--hidden: A control that is not displayed but whose value is submitted to the server.-->
+    <!--image: A graphical submit button.-->
+    <!--number: A control for entering a number.-->
+    <!--password: A single-line text field whose value is obscured.-->
+    <!--radio: A radio button, allowing a single value to be selected out of multiple choices.-->
+    <!--range: A control for entering a number whose exact value is not important.-->
+    <!--reset: A button that resets the contents of the form to default values.-->
+    <!--search: A single-line text field for entering search strings.-->
+    <!--submit: A button that submits the form.-->
+    <!--tel: A control for entering a telephone number.-->
+    <!--text: A single-line text field.-->
+    <!--url: A field for entering a URL.-->
+
+    <!-- EXAMPLES: -->
+    <label for="checkbox">checkbox:</label>
+    <input name="checkbox" type="checkbox" value="yes">
+
+    <label for="color">color:</label>
+    <input name="color" type="color" value="#0000ff">
+
+    <label for="date">date:</label>
+    <input name="date" type="date">
+
+    <label for="email">email:</label>
+    <input name="email" type="email">
+
+    <label for="file">file:</label>
+    <input name="file" type="file">
+
+    <label for="hidden">hidden:</label>
+    <input name="hidden" type="hidden" value="hidden">
+
+    <label for="number">number:</label>
+    <input name="number" type="number">
+
+    <label for="password">password:</label>
+    <input name="password" type="password">
+
+    <label for="radio">radio:</label>
+    <input name="radio" type="radio" value="one">
+    <label>one</label>
+    <input name="radio" type="radio" value="two">
+    <label>two</label>
+
+    <label for="range">range:</label>
+    <input name="range" type="range">
+
+    <label for="text">text:</label>
+    <input name="text" type="text">
+
+    <input type="submit" value="Submit">
+
+    <!-- SELECT - The HTML <select> element represents a control that provides a menu of options. -->
+
+    <label for="dropdown">dropdown:</label>
+    <select name="dropdown">
+        <option value="one">one</option>
+        <option value="two">two</option>
+        <option value="three">three</option>
+    </select>
+
+    <label for="list">list:</label>
+    <select name="list" size=3>
+        <option value="one">one</option>
+        <option value="two">two</option>
+        <option value="three">three</option>
+    </select>
+
+    <label for="multiple">multiple:</label>
+    <select name="multiple" size=3 multiple>
+        <option value="one">one</option>
+        <option value="two">two</option>
+        <option value="three">three</option>
+    </select>
+
+    <!-- TEXTAREA - The HTML <textarea> element represents a multi-line plain-text editing control. -->
+    <label for="textarea">textarea</label>
+    <textarea name="textarea"></textarea>
+
+    <!-- BUTTON - The HTML <button> element represents a clickable button. Button elements are much easier to style than input elements. -->
+    <button type="submit">Submit</button>
+
+    <!-- OUTPUT - The HTML <output> element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action. -->
+    <form oninput="tip.value=parseFloat(amount.value) * parseFloat(percent.value) / 100">
+        <p>Tip calculator</p>
+
+        <label for="amount">Bill Amount:</label>
+        <input name="amount" type="number" value="0" /><br>
+
+        <label for="percentage">Tip Percentage:</label>
+        <input name="percent" type="number" value="15" /><br>
+
+        <p>
+            <label for="tip">Tip:</label>
+            <output name="tip">0</output>
+        </p>
+    </form>
+
+    <!-- OPTION  - The HTML <option> element is used to define an item contained in a <select>, an <optgroup>, or a <datalist> element. See examples above for select or below for datalist. -->
+
+    <!-- Datalist - The HTML <datalist> element contains a set of <option> elements that represent the values available for other controls. -->
+    <label for="datalist">datalist:</label>
+    <input name="datalist" type="text" list="datalist">
+
+    <datalist id="datalist">
+        <option value="one">
+        <option value="two">
+        <option value="three">
+        <option value="four">
+        <option value="five">
+    </datalist>
+
+    <!-- FIELDSET - The HTML <fieldset> element is used to group several controls as well as labels within a web form.  -->
+    <fieldset style="width:10em">
+        <label for="radio">radio:</label>
+        <input name="radio" type="radio" value="one">
+        <label>one</label>
+        <input name="radio" type="radio" value="two">
+        <label>two</label>
+    </fieldset>
+
 
 </body>
 
